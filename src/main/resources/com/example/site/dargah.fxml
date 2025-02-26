@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="1535.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.site.sabad">
+<children>
+    <AnchorPane prefHeight="200.0" prefWidth="200.0">
+        <children>
+            <BorderPane layoutX="-4.0" prefHeight="790.0" prefWidth="1543.0" AnchorPane.bottomAnchor="0.7999999999999545" AnchorPane.leftAnchor="-4.0" AnchorPane.rightAnchor="-3.2000000000000455" AnchorPane.topAnchor="0.0">
+                <top>
+                    <AnchorPane prefHeight="175.0" prefWidth="1542.0" BorderPane.alignment="CENTER">
+                        <children>
+                            <ComboBox fx:id="com1" layoutX="1353.0" layoutY="76.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="50.0" prefWidth="175.0" promptText="دسته بندی کالا ها" style="-fx-background-color: f4f4f4;" stylesheets="@style.css">
+                                <styleClass>
+                                    <String fx:value="head-label" />
+                                    <String fx:value="text-field1" />
+                                </styleClass>
+                            </ComboBox>
+                            <TextField fx:id="txt1" layoutX="555.2" layoutY="14.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="42.0" prefWidth="527.0" promptText="جست و جو " stylesheets="@style.css" AnchorPane.bottomAnchor="128.0" AnchorPane.leftAnchor="555.0" AnchorPane.rightAnchor="463.0" AnchorPane.topAnchor="14.0">
+                                <styleClass>
+                                    <String fx:value="text-field1" />
+                                    <String fx:value="password" />
+                                </styleClass>
+                            </TextField>
+                            <Button layoutX="1222.0" layoutY="15.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="221.0" style="-fx-background-color: ffff;">
+                                <graphic>
+                                    <ImageView fitHeight="43.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+                                        <image>
+                                            <Image url="@../../../Images/Screenshot%202025-01-04%20162459.png" />
+                                        </image>
+                                    </ImageView>
+                                </graphic>
+                            </Button>
+                            <Button layoutX="44.0" layoutY="15.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="37.0" style="-fx-background-color: f4f4f4;">
+                                <graphic>
+                                    <ImageView fx:id="bt1" fitHeight="38.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                                        <image>
+                                            <Image url="@../../../Images/photo_2025-01-03_12-39-34.png" />
+                                        </image></ImageView>
+                                </graphic>
+                            </Button>
+                            <Button layoutX="105.0" layoutY="12.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="37.0" style="-fx-background-color: f4f4f4;">
+                                <graphic>
+                                    <ImageView fitHeight="44.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                                        <image>
+                                            <Image url="@../../../Images/images.png" />
+                                        </image></ImageView>
+                                </graphic>
+                            </Button>
+                            <Button fx:id="back" layoutX="71.0" layoutY="81.0" mnemonicParsing="false" onAction="#backpage" prefHeight="41.0" prefWidth="30.0" style="-fx-background-color: f4f4f4;" textAlignment="CENTER">
+                                <graphic>
+                                    <ImageView fitHeight="33.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                                        <image>
+                                            <Image url="@../../../Images/return-icon-png-21.jpg" />
+                                        </image>
+                                    </ImageView>
+                                </graphic>
+                            </Button>
+                            <ImageView fitHeight="29.0" fitWidth="28.0" layoutX="568.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+                                <image>
+                                    <Image url="@../../../Images/Search.png" />
+                                </image></ImageView>
+                            <Separator layoutX="1168.0" layoutY="13.0" orientation="VERTICAL" prefHeight="56.0" prefWidth="6.0" />
+                            <Separator layoutX="1.0" layoutY="73.0" prefHeight="0.0" prefWidth="1535.0" />
+                            <Button layoutX="1148.0" layoutY="76.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="175.0" stylesheets="@style.css" text="چرا الکترو شاپ">
+                                <styleClass>
+                                    <String fx:value="head-label" />
+                                    <String fx:value="button" />
+                                    <String fx:value="text-field1" />
+                                </styleClass>
+                            </Button>
+                        </children>
+                    </AnchorPane>
+                </top>
+               <center>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <VBox layoutX="567.0" layoutY="29.0" prefHeight="534.0" prefWidth="436.0">
+                           <children>
+                              <VBox prefHeight="534.0" prefWidth="436.0">
+                                 <children>
+                                    <Label nodeOrientation="RIGHT_TO_LEFT" prefHeight="39.0" prefWidth="444.0" text="شماره کارت " />
+                                    <TextField prefHeight="47.0" prefWidth="436.0" stylesheets="@style.css">
+                                       <styleClass>
+                                          <String fx:value="text-field1" />
+                                          <String fx:value="password" />
+                                       </styleClass>
+                                    </TextField>
+                                    <Label nodeOrientation="RIGHT_TO_LEFT" prefHeight="41.0" prefWidth="436.0" text="مبلغ" />
+                                    <TextField prefHeight="47.0" prefWidth="436.0" stylesheets="@style.css">
+                                       <styleClass>
+                                          <String fx:value="text-field1" />
+                                          <String fx:value="password" />
+                                       </styleClass>
+                                    </TextField>
+                                    <Label prefHeight="49.0" prefWidth="436.0" text="Cvv2" />
+                                    <TextField prefHeight="47.0" prefWidth="436.0" stylesheets="@style.css">
+                                       <styleClass>
+                                          <String fx:value="text-field1" />
+                                          <String fx:value="password" />
+                                       </styleClass>
+                                    </TextField>
+                                    <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <Label layoutX="11.0" layoutY="2.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="35.0" prefWidth="174.0" text="سال انقضاء" />
+                                          <TextField layoutX="16.0" layoutY="40.0" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="47.0" prefWidth="202.0" stylesheets="@style.css">
+                                             <styleClass>
+                                                <String fx:value="text-field1" />
+                                                <String fx:value="password" />
+                                             </styleClass>
+                                          </TextField>
+                                          <TextField layoutX="237.0" layoutY="40.0" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="47.0" prefWidth="202.0" stylesheets="@style.css">
+                                             <styleClass>
+                                                <String fx:value="text-field1" />
+                                                <String fx:value="password" />
+                                             </styleClass>
+                                          </TextField>
+                                          <Label layoutX="238.0" layoutY="3.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="33.0" prefWidth="186.0" text="ماه انقضاء" />
+                                          <Button layoutX="260.0" layoutY="129.0" mnemonicParsing="false" onAction="#TOTAL" prefHeight="41.0" prefWidth="125.0" stylesheets="@style.css" text="خرید ">
+                                             <styleClass>
+                                                <String fx:value="login-btn1" />
+                                                <String fx:value="text" />
+                                                <String fx:value="password" />
+                                             </styleClass>
+                                          </Button>
+                                          <Label fx:id="TOTAL" layoutX="28.0" layoutY="109.0" prefHeight="71.0" prefWidth="176.0" />
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+               </center>
+            </BorderPane>
+        </children>
+    </AnchorPane>
+</children>
+</StackPane>

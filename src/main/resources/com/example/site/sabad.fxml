@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="1535.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.site.sabad">
+<children>
+    <AnchorPane prefHeight="200.0" prefWidth="200.0">
+        <children>
+            <BorderPane layoutX="-4.0" layoutY="-7.0" prefHeight="790.0" prefWidth="1543.0" AnchorPane.bottomAnchor="7.7999999999999545" AnchorPane.leftAnchor="-4.0" AnchorPane.rightAnchor="-3.2000000000000455" AnchorPane.topAnchor="-7.0">
+                <top>
+                    <AnchorPane prefHeight="130.0" prefWidth="1542.0" BorderPane.alignment="CENTER">
+                        <children>
+                            <ComboBox fx:id="com1" layoutX="1353.0" layoutY="76.0" nodeOrientation="RIGHT_TO_LEFT" onAction="#handleComboBoxAction" prefHeight="50.0" prefWidth="175.0" promptText="دسته بندی کالا ها" style="-fx-background-color: f4f4f4;" stylesheets="@style.css">
+                                <styleClass>
+                                    <String fx:value="head-label" />
+                                    <String fx:value="text-field1" />
+                                </styleClass>
+                            </ComboBox>
+                            <TextField fx:id="txt1" layoutX="555.2" layoutY="14.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="42.0" prefWidth="527.0" promptText="جست و جو " stylesheets="@style.css" AnchorPane.bottomAnchor="128.0" AnchorPane.leftAnchor="555.0" AnchorPane.rightAnchor="463.0" AnchorPane.topAnchor="14.0">
+                                <styleClass>
+                                    <String fx:value="text-field1" />
+                                    <String fx:value="password" />
+                                </styleClass>
+                            </TextField>
+                            <Button layoutX="1222.0" layoutY="15.0" mnemonicParsing="false" onAction="#mainpage" prefHeight="46.0" prefWidth="221.0" style="-fx-background-color: #F4F4F4;">
+                                <graphic>
+                                    <ImageView fitHeight="43.0" fitWidth="230.0" pickOnBounds="true" preserveRatio="true">
+                                        <image>
+                                            <Image url="@../../../Images/Screenshot%202025-01-04%20162459.png" />
+                                        </image>
+                                    </ImageView>
+                                </graphic>
+                            </Button>
+                            <Button layoutX="44.0" layoutY="15.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="37.0" style="-fx-background-color: f4f4f4;">
+                                <graphic>
+                                    <ImageView fx:id="bt1" fitHeight="38.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                                        <image>
+                                            <Image url="@../../../Images/photo_2025-01-03_12-39-34.png" />
+                                        </image></ImageView>
+                                </graphic>
+                            </Button>
+                            <Button layoutX="105.0" layoutY="12.0" mnemonicParsing="false" onAction="#refresh" prefHeight="46.0" prefWidth="37.0" style="-fx-background-color: f4f4f4;">
+                                <graphic>
+                                    <ImageView fitHeight="36.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                        <image>
+                                            <Image url="@../../../Images/refresh-3104.png" />
+                                        </image></ImageView>
+                                </graphic>
+                            </Button>
+                            <ImageView fitHeight="29.0" fitWidth="28.0" layoutX="568.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+                                <image>
+                                    <Image url="@../../../Images/Search.png" />
+                                </image></ImageView>
+                            <Separator layoutX="1168.0" layoutY="13.0" orientation="VERTICAL" prefHeight="56.0" prefWidth="6.0" />
+                            <Separator layoutX="1.0" layoutY="73.0" prefHeight="0.0" prefWidth="1535.0" />
+                            <Button layoutX="1148.0" layoutY="76.0" mnemonicParsing="false" onAction="#why" prefHeight="50.0" prefWidth="175.0" stylesheets="@style.css" text="چرا لنوو">
+                                <styleClass>
+                                    <String fx:value="head-label" />
+                                    <String fx:value="button" />
+                                    <String fx:value="text-field1" />
+                                </styleClass>
+                            </Button>
+                            <Button fx:id="back" layoutX="71.0" layoutY="81.0" mnemonicParsing="false" onAction="#backpage" prefHeight="41.0" prefWidth="30.0" style="-fx-background-color: f4f4f4;" textAlignment="CENTER">
+                                <graphic>
+                                    <ImageView fitHeight="33.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                                        <image>
+                                            <Image url="@../../../Images/return-icon-png-21.jpg" />
+                                        </image>
+                                    </ImageView>
+                                </graphic>
+                            </Button>
+                        <Label fx:id="alart" layoutX="700.0" layoutY="93.0" textAlignment="CENTER" textFill="#d3005f">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        </children>
+                    </AnchorPane>
+                </top>
+               <center>
+                  <TabPane nodeOrientation="RIGHT_TO_LEFT" prefHeight="606.0" prefWidth="1526.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+                    <tabs>
+                      <Tab text="سبد خرید">
+                           <content>
+                              <ScrollPane prefHeight="200.0" prefWidth="200.0">
+                                 <content>
+                                    <VBox fx:id="dinamicPaneCart" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="1533.0">
+                                       <children>
+                                          <Pane prefHeight="70.0" prefWidth="837.0">
+                                             <children>
+                                                <Label fx:id="sabad5" layoutX="253.0" layoutY="-1.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="31.0" prefWidth="584.0" />
+                                                <Button layoutX="44.0" layoutY="16.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="90.0" stylesheets="@style.css" text="خرید نهایی ">
+                                                   <styleClass>
+                                                      <String fx:value="login-btn1" />
+                                                      <String fx:value="text" />
+                                                      <String fx:value="password" />
+                                                   </styleClass>
+                                                </Button>
+                                                <Label fx:id="price5" layoutX="268.0" layoutY="28.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="32.0" prefWidth="561.0" />
+                                                <Separator layoutY="1.0" prefHeight="2.0" prefWidth="843.0" />
+                                                <Button layoutX="151.0" layoutY="16.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="90.0" stylesheets="@style.css" text="حذف">
+                                                   <styleClass>
+                                                      <String fx:value="login-btn1" />
+                                                      <String fx:value="text" />
+                                                      <String fx:value="password" />
+                                                   </styleClass>
+                                                </Button>
+                                                <Button layoutX="314.0" layoutY="24.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="32.0" text="+" />
+                                                <Button layoutX="395.0" layoutY="24.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="32.0" text="-" />
+                                                <Label fx:id="tedad5" layoutX="354.0" layoutY="23.0" prefHeight="27.0" prefWidth="32.0" />
+                                             </children>
+                                             <VBox.margin>
+                                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                             </VBox.margin>
+                                          </Pane>
+                                          <Pane prefHeight="71.0" prefWidth="837.0">
+                                             <children>
+                                                <Label fx:id="sabad6" layoutX="253.0" layoutY="-1.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="31.0" prefWidth="584.0" />
+                                                <Button layoutX="44.0" layoutY="16.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="90.0" stylesheets="@style.css" text="خرید نهایی ">
+                                                   <styleClass>
+                                                      <String fx:value="login-btn1" />
+                                                      <String fx:value="text" />
+                                                      <String fx:value="password" />
+                                                   </styleClass>
+                                                </Button>
+                                                <Label fx:id="price6" layoutX="276.0" layoutY="32.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="32.0" prefWidth="561.0" />
+                                                <Separator prefHeight="1.0" prefWidth="846.0" />
+                                                <Button layoutX="879.0" layoutY="3.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="93.0" stylesheets="@style.css" text="خرید همه">
+                                                   <styleClass>
+                                                      <String fx:value="login-btn1" />
+                                                      <String fx:value="text" />
+                                                      <String fx:value="password" />
+                                                   </styleClass>
+                                                </Button>
+                                                <Label fx:id="TotalLabel" layoutX="999.0" layoutY="3.0" prefHeight="53.0" prefWidth="152.0" />
+                                                <Button layoutX="151.0" layoutY="16.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="90.0" stylesheets="@style.css" text="حذف">
+                                                   <styleClass>
+                                                      <String fx:value="login-btn1" />
+                                                      <String fx:value="text" />
+                                                      <String fx:value="password" />
+                                                   </styleClass>
+                                                </Button>
+                                                <Button layoutX="314.0" layoutY="24.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="32.0" text="+" />
+                                                <Button layoutX="395.0" layoutY="24.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="32.0" text="-" />
+                                                <Label fx:id="tedad6" layoutX="356.0" layoutY="23.0" prefHeight="27.0" prefWidth="33.0" />
+                                             </children>
+                                             <VBox.margin>
+                                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                             </VBox.margin>
+                                          </Pane>
+                                          <Pane prefHeight="72.0" prefWidth="847.0">
+                                             <children>
+                                                <Label fx:id="sabad9" layoutX="273.0" layoutY="-1.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="31.0" prefWidth="584.0" />
+                                                <Button layoutX="44.0" layoutY="16.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="93.0" stylesheets="@style.css" text="خرید نهایی ">
+                                                   <styleClass>
+                                                      <String fx:value="login-btn1" />
+                                                      <String fx:value="text" />
+                                                      <String fx:value="password" />
+                                                   </styleClass>
+                                                </Button>
+                                                <Label fx:id="price9" layoutX="287.0" layoutY="36.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="27.0" prefWidth="561.0" />
+                                                <Separator prefHeight="3.0" prefWidth="848.0" />
+                                                <Button layoutX="151.0" layoutY="16.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="90.0" stylesheets="@style.css" text="حذف">
+                                                   <styleClass>
+                                                      <String fx:value="login-btn1" />
+                                                      <String fx:value="text" />
+                                                      <String fx:value="password" />
+                                                   </styleClass>
+                                                </Button>
+                                                <Button layoutX="320.0" layoutY="24.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="32.0" text="+" />
+                                                <Button layoutX="399.0" layoutY="24.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="32.0" text="-" />
+                                                <Label fx:id="tedad9" layoutX="360.0" layoutY="23.0" prefHeight="27.0" prefWidth="33.0" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </VBox>
+                                 </content>
+                              </ScrollPane>
+                           </content>
+                        </Tab>
+                        <Tab text="خرید ها">
+                           <content>
+                              <VBox fx:id="dinamicSellView" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="581.0" prefWidth="1529.0">
+                                 <children>
+                                    <Pane prefHeight="68.0" prefWidth="837.0">
+                                       <children>
+                                          <Label fx:id="nahayi1" layoutX="253.0" layoutY="-1.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="31.0" prefWidth="584.0" />
+                                          <Label fx:id="nahayi1P" layoutX="276.0" layoutY="31.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="27.0" prefWidth="561.0" />
+                                          <Separator prefHeight="0.0" prefWidth="840.0" />
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                       </VBox.margin>
+                                    </Pane>
+                                    <Pane prefHeight="68.0" prefWidth="837.0">
+                                       <children>
+                                          <Label fx:id="nahayi2" layoutX="253.0" layoutY="1.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="31.0" prefWidth="584.0" />
+                                          <Label fx:id="nahayi2P" layoutX="276.0" layoutY="28.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="32.0" prefWidth="561.0" />
+                                          <Separator layoutY="2.0" prefHeight="1.0" prefWidth="844.0" />
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                       </VBox.margin>
+                                    </Pane>
+                                    <Pane prefHeight="69.0" prefWidth="837.0">
+                                       <children>
+                                          <Label fx:id="nahayi3" layoutX="253.0" layoutY="1.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="31.0" prefWidth="584.0" />
+                                          <Label fx:id="nahayi3P" layoutX="276.0" layoutY="29.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="32.0" prefWidth="561.0" />
+                                          <Separator prefHeight="0.0" prefWidth="791.0" />
+                                          <Separator prefHeight="0.0" prefWidth="841.0" />
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                       </VBox.margin>
+                                    </Pane>
+                                    <Pane prefHeight="67.0" prefWidth="837.0">
+                                       <children>
+                                          <Label fx:id="nahayi4" layoutX="253.0" layoutY="1.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="31.0" prefWidth="584.0" />
+                                          <Label fx:id="nahayi4P" layoutX="276.0" layoutY="27.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="32.0" prefWidth="561.0" />
+                                          <Separator prefHeight="0.0" prefWidth="844.0" />
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                       </VBox.margin>
+                                    </Pane>
+                                    <Pane prefHeight="70.0" prefWidth="837.0">
+                                       <children>
+                                          <Label fx:id="nahayi5" layoutX="253.0" layoutY="-1.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="31.0" prefWidth="584.0" />
+                                          <Label fx:id="nahayi5P" layoutX="276.0" layoutY="30.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="32.0" prefWidth="561.0" />
+                                          <Separator layoutY="1.0" prefHeight="2.0" prefWidth="843.0" />
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                       </VBox.margin>
+                                    </Pane>
+                                    <Pane prefHeight="71.0" prefWidth="837.0">
+                                       <children>
+                                          <Label fx:id="nahayi6" layoutX="253.0" layoutY="-1.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="31.0" prefWidth="584.0" />
+                                          <Label fx:id="nahayi6P" layoutX="276.0" layoutY="32.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="32.0" prefWidth="561.0" />
+                                          <Separator prefHeight="1.0" prefWidth="846.0" />
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                       </VBox.margin>
+                                    </Pane>
+                                    <Pane prefHeight="74.0" prefWidth="847.0">
+                                       <children>
+                                          <Label fx:id="nahayi7" layoutX="263.0" layoutY="1.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="31.0" prefWidth="584.0" />
+                                          <Label fx:id="nahayi7P" layoutX="286.0" layoutY="35.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="32.0" prefWidth="561.0" />
+                                          <Separator prefHeight="1.0" prefWidth="846.0" />
+                                       </children>
+                                    </Pane>
+                                    <Pane prefHeight="73.0" prefWidth="847.0">
+                                       <children>
+                                          <Label fx:id="nahayi8" layoutX="264.0" layoutY="1.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="31.0" prefWidth="584.0" />
+                                          <Label fx:id="nahayi8P" layoutX="287.0" layoutY="34.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="32.0" prefWidth="561.0" />
+                                          <Separator prefHeight="3.0" prefWidth="848.0" />
+                                       </children>
+                                    </Pane>
+                                    <Pane prefHeight="72.0" prefWidth="847.0">
+                                       <children>
+                                          <Label fx:id="nahayi9" layoutX="263.0" layoutY="-1.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="31.0" prefWidth="584.0" />
+                                          <Label fx:id="nahayi9P" layoutX="287.0" layoutY="36.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="27.0" prefWidth="561.0" />
+                                          <Separator prefHeight="3.0" prefWidth="848.0" />
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </VBox>
+                           </content>
+                        </Tab>
+                    </tabs>
+                  </TabPane>
+               </center>
+            </BorderPane>
+        </children>
+    </AnchorPane>
+</children>
+</StackPane>
