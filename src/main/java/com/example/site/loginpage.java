@@ -176,13 +176,13 @@ public class loginpage{
 
     @FXML
     public void initialize() {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/site/profile1.fxml"));
+        /*FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/site/profile1.fxml"));
         loginpage controller = loader.getController();
-        controller.txtName.setText(result.getString("name"));
-        controller.txtUsername.setText(result.getString("username"));
-        controller.txtEmail.setText(result.getString("email"));
-        controller.txtPostcode.setText(result.getString("postcode"));
-        controller.txtAddress.setText(result.getString("address"));
+        controller.txtName.setText(txtname);
+        controller.txtUsername.setText(txtusername);
+        controller.txtEmail.setText(txtemail);
+        controller.txtPostcode.setText(txtpostcode);
+        controller.txtAddress.setText(txtaddress);*/
         System.out.println("FXML components initialized.");
     }
     @FXML
@@ -447,6 +447,7 @@ public class loginpage{
         }
 
     }
+    String txtname,txtusername,txtpostcode,txtpassword,txtemail,txtaddress;
 
 
     public void loginBtn(ActionEvent event) {
@@ -491,6 +492,12 @@ public class loginpage{
                     loginID = true;
 
                     loginpage controller = loader.getController();
+                    txtname = result.getString("name");
+                    txtpassword = result.getString("password");
+                    txtemail = result.getString("email");
+                    txtusername = result.getString("username");
+                    txtaddress = result.getString("address");
+                    txtpostcode = result.getString("postcode");
                     controller.txtName.setText(result.getString("name"));
                     controller.txtUsername.setText(result.getString("username"));
                     controller.txtEmail.setText(result.getString("email"));

@@ -204,7 +204,7 @@ public class HelloController implements Initializable {
     @FXML
     private TextField textfieldHome;
 
-    public void searchHome(ActionEvent event) {
+    /*public void searchHome(ActionEvent event) {
         String[] namesearch = {"LOQ 15IRH8","LOQ 15IRX9","LOQ 16IRH8","Legion Pro 7","LOQ 15IRX9","LOQ 15ARP9","Legion Pro 5 16IRX9","Legion Pro 5 16IRX8","LOQ 15IRH8","Legion 5 16IRX9","Legion 5 16IRX9","Legion 5 Pro Y9000P","YOGA Pro 16s","ThinkBook 16+","ThinkBook T14p"
                 ,"LOQ 15ARP9","gaming laptop","janebi","laptop","IdeaPad 3","IdeaPad Slim 3","IdeaPad Slim 3 15IRU8","IdeaPad Slim 3 15IRH8","IdeaPad Slim 3 512GB","V15 G4 512GB","V15 G4 256GB","IdeaPad 1 N4020","IdeaPad Slim 3 15IRU8","IdeaPad 1 15IGL7","IdeaPad 1 15AMN7","IdeaPad 5 512GB","LOQ 15IRH8"
                 ,"IdeaPad 5 1TB","ThinkBook 15 G2","ThinkPad E14 512GB","ThinkBook 15 G2 512GB","IdeaPad Gaming 3 15IHU6","IdeaPad Gaming 3 15ACH6","LOQ 15IAX9","Legion 5 512GB","lap top","tablet","ThinkPad X1 Tablet","Lenovo Tab Plus","Tab P12","Tab P12 Pro","MICRO USB","TAB 3 7","Lenovo Tab M9"
@@ -234,5 +234,13 @@ public class HelloController implements Initializable {
                 }
             }
         }
+    }*/
+    @FXML
+    public void searchHome(ActionEvent event) {
+        openNewWindow("search.fxml","Search",event);
+    }
+
+    public void chatBot(ActionEvent actionEvent) {
+        openNewWindow("chatConto.fxml","ChatBot",actionEvent);
     }
 }
