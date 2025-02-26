@@ -176,6 +176,13 @@ public class loginpage{
 
     @FXML
     public void initialize() {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/site/profile1.fxml"));
+        loginpage controller = loader.getController();
+        controller.txtName.setText(result.getString("name"));
+        controller.txtUsername.setText(result.getString("username"));
+        controller.txtEmail.setText(result.getString("email"));
+        controller.txtPostcode.setText(result.getString("postcode"));
+        controller.txtAddress.setText(result.getString("address"));
         System.out.println("FXML components initialized.");
     }
     @FXML
