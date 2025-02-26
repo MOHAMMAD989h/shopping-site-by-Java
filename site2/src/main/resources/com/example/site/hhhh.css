@@ -58,11 +58,6 @@
     -fx-border-color: linear-gradient(to bottom right , #4c507b, #d3005f );
     -fx-border-width: 1px;
 }
-.text-field2{
-    -fx-background-color: transparent;
-    -fx-border-color: linear-gradient(to bottom right , #000000, #d3005f );
-    -fx-border-width: 1px;
-}
 
 .text-field1:hover{
     -fx-border-color: linear-gradient(to bottom right , #fff, #d3005f );

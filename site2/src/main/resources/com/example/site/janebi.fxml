@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import java.lang.String?>
-<?import java.net.URL?>
 <?import javafx.geometry.Insets?>
 <?import javafx.geometry.Rectangle2D?>
 <?import javafx.scene.control.Button?>
@@ -22,106 +21,106 @@
 <?import javafx.scene.text.Font?>
 
 <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="3000.0" prefWidth="1535.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.site.janebi">
-<children>
-    <AnchorPane prefHeight="2910.0" prefWidth="1535.0">
-        <children>
+   <children>
+      <AnchorPane prefHeight="2910.0" prefWidth="1535.0">
+         <children>
             <BorderPane layoutX="-4.0" prefHeight="790.0" prefWidth="1543.0" AnchorPane.bottomAnchor="0.7999999999999545" AnchorPane.leftAnchor="-4.0" AnchorPane.rightAnchor="-3.2000000000000455" AnchorPane.topAnchor="0.0">
-                <top>
-                    <AnchorPane prefHeight="175.0" prefWidth="1542.0" BorderPane.alignment="CENTER">
-                        <children>
-                            <ComboBox fx:id="com1" layoutX="1353.0" layoutY="76.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="50.0" prefWidth="175.0" promptText="لوازم جانبی" style="-fx-background-color: f4f4f4;" stylesheets="@style.css">
-                                <styleClass>
-                                    <String fx:value="head-label" />
-                                    <String fx:value="text-field1" />
-                                </styleClass>
-                            </ComboBox>
-                            <TextField fx:id="txt1" layoutX="555.2" layoutY="14.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="42.0" prefWidth="527.0" promptText="جست و جو " stylesheets="@style.css" AnchorPane.bottomAnchor="128.0" AnchorPane.leftAnchor="555.0" AnchorPane.rightAnchor="463.0" AnchorPane.topAnchor="14.0">
-                                <styleClass>
-                                    <String fx:value="text-field1" />
-                                    <String fx:value="password" />
-                                </styleClass>
-                            </TextField>
-                            <Button layoutX="1177.0" layoutY="10.0" mnemonicParsing="false" onAction="#mainpage" prefHeight="51.0" prefWidth="348.0" style="-fx-background-color: #F4F4F4;" stylesheets="@style.css">
-                                <graphic>
-                                    <ImageView fitHeight="43.0" fitWidth="230.0" pickOnBounds="true" preserveRatio="true">
-                                        <image>
-                                            <Image url="@../../../Images/Screenshot%202025-01-04%20162459.png" />
-                                        </image>
-                                    </ImageView>
-                                </graphic>
-                            </Button>
-                            <Button layoutX="44.0" layoutY="15.0" mnemonicParsing="false" onAction="#janebiToProfile" prefHeight="46.0" prefWidth="37.0" style="-fx-background-color: f4f4f4;">
-                                <graphic>
-                                    <ImageView fx:id="bt1" fitHeight="38.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
-                                        <image>
-                                            <Image url="@../../../Images/photo_2025-01-03_12-39-34.png" />
-                                        </image></ImageView>
-                                </graphic>
-                            </Button>
-                            <Button layoutX="105.0" layoutY="12.0" mnemonicParsing="false" onAction="#sabadpage" prefHeight="46.0" prefWidth="37.0" style="-fx-background-color: f4f4f4;">
-                                <graphic>
-                                    <ImageView fitHeight="44.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
-                                        <image>
-                                            <Image url="@../../../Images/images.png" />
-                                        </image></ImageView>
-                                </graphic>
-                            </Button>
-                            <ImageView fitHeight="29.0" fitWidth="28.0" layoutX="568.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
-                                <image>
-                                    <Image url="@../../../Images/Search.png" />
-                                </image></ImageView>
-                            <Separator layoutX="1168.0" layoutY="13.0" orientation="VERTICAL" prefHeight="56.0" prefWidth="6.0" />
-                            <Separator layoutX="1.0" layoutY="73.0" prefHeight="0.0" prefWidth="1535.0" />
-                            <Button layoutX="1148.0" layoutY="76.0" mnemonicParsing="false" onAction="#why" prefHeight="50.0" prefWidth="175.0" stylesheets="@style.css" text="چرا لنوو">
-                                <styleClass>
-                                    <String fx:value="head-label" />
-                                    <String fx:value="button" />
-                                    <String fx:value="text-field1" />
-                                </styleClass>
-                            </Button>
-                           <Button fx:id="back" layoutX="71.0" layoutY="81.0" mnemonicParsing="false" onAction="#backpage" prefHeight="41.0" prefWidth="30.0" style="-fx-background-color: f4f4f4;" textAlignment="CENTER">
-                              <graphic>
-                                 <ImageView fitHeight="33.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
-                                    <image>
-                                       <Image url="@../../../Images/return-icon-png-21.jpg" />
-                                    </image>
-                                 </ImageView>
-                              </graphic>
-                           </Button>
-                           <Label fx:id="alart" layoutX="619.0" layoutY="87.0" prefHeight="42.0" prefWidth="455.0" stylesheets="@style.css" textAlignment="CENTER" textFill="#d3005f" textOverrun="CENTER_ELLIPSIS">
-                              <font>
-                                 <Font name="System Bold" size="24.0" />
-                              </font>
-                           </Label>
-                        </children>
-                    </AnchorPane>
-                </top>
+               <top>
+                  <AnchorPane prefHeight="175.0" prefWidth="1542.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <ComboBox fx:id="com1" layoutX="1353.0" layoutY="76.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="50.0" prefWidth="175.0" promptText="لوازم جانبی" style="-fx-background-color: f4f4f4;" stylesheets="@style.css">
+                           <styleClass>
+                              <String fx:value="head-label" />
+                              <String fx:value="text-field1" />
+                           </styleClass>
+                        </ComboBox>
+                        <TextField fx:id="txt1" layoutX="555.2" layoutY="14.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="42.0" prefWidth="527.0" promptText="جست و جو " stylesheets="@style.css" AnchorPane.bottomAnchor="128.0" AnchorPane.leftAnchor="555.0" AnchorPane.rightAnchor="463.0" AnchorPane.topAnchor="14.0">
+                           <styleClass>
+                              <String fx:value="text-field1" />
+                              <String fx:value="password" />
+                           </styleClass>
+                        </TextField>
+                        <Button layoutX="1177.0" layoutY="10.0" mnemonicParsing="false" onAction="#mainpage" prefHeight="51.0" prefWidth="348.0" style="-fx-background-color: #F4F4F4;" stylesheets="@style.css">
+                           <graphic>
+                              <ImageView fitHeight="43.0" fitWidth="230.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../Images/Screenshot%202025-01-04%20162459.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button layoutX="44.0" layoutY="15.0" mnemonicParsing="false" onAction="#janebiToProfile" prefHeight="46.0" prefWidth="37.0" style="-fx-background-color: f4f4f4;">
+                           <graphic>
+                              <ImageView fx:id="bt1" fitHeight="38.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../Images/photo_2025-01-03_12-39-34.png" />
+                                 </image></ImageView>
+                           </graphic>
+                        </Button>
+                        <Button layoutX="105.0" layoutY="12.0" mnemonicParsing="false" onAction="#sabadpage" prefHeight="46.0" prefWidth="37.0" style="-fx-background-color: f4f4f4;">
+                           <graphic>
+                              <ImageView fitHeight="44.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../Images/images.png" />
+                                 </image></ImageView>
+                           </graphic>
+                        </Button>
+                        <ImageView fitHeight="29.0" fitWidth="28.0" layoutX="568.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Images/Search.png" />
+                           </image></ImageView>
+                        <Separator layoutX="1168.0" layoutY="13.0" orientation="VERTICAL" prefHeight="56.0" prefWidth="6.0" />
+                        <Separator layoutX="1.0" layoutY="73.0" prefHeight="0.0" prefWidth="1535.0" />
+                        <Button layoutX="1148.0" layoutY="76.0" mnemonicParsing="false" onAction="#why" prefHeight="50.0" prefWidth="175.0" stylesheets="@style.css" text="چرا لنوو">
+                           <styleClass>
+                              <String fx:value="head-label" />
+                              <String fx:value="button" />
+                              <String fx:value="text-field1" />
+                           </styleClass>
+                        </Button>
+                        <Button fx:id="back" layoutX="71.0" layoutY="81.0" mnemonicParsing="false" onAction="#backpage" prefHeight="41.0" prefWidth="30.0" style="-fx-background-color: f4f4f4;" textAlignment="CENTER">
+                           <graphic>
+                              <ImageView fitHeight="33.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../Images/return-icon-png-21.jpg" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Label fx:id="alart" layoutX="619.0" layoutY="87.0" prefHeight="42.0" prefWidth="455.0" stylesheets="@style.css" textAlignment="CENTER" textFill="#d3005f" textOverrun="CENTER_ELLIPSIS">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </top>
                <center>
                   <ScrollPane prefHeight="2615.0" prefWidth="1542.0" BorderPane.alignment="CENTER">
-                    <content>
-                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2762.0" prefWidth="1526.0">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2762.0" prefWidth="1526.0">
                            <children>
                               <GridPane prefHeight="2726.0" prefWidth="1526.0" stylesheets="@style.css">
-                                <columnConstraints>
+                                 <columnConstraints>
                                     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                                </columnConstraints>
-                                <rowConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
                                     <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                                     <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                                     <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                                     <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                                     <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                                </rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                 </rowConstraints>
                                  <children>
                                     <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="330.0" minWidth="380.0" prefHeight="330.0" prefWidth="380.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
                                        <children>
-                                          <Button mnemonicParsing="false" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
+                                          <Button mnemonicParsing="false" onAction="#new1" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
                                              <graphic>
                                                 <ImageView fitHeight="185.0" fitWidth="235.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
@@ -133,7 +132,7 @@
                                                 </ImageView>
                                              </graphic>
                                           </Button>
-                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="31.0" prefWidth="343.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="کیبورد و موس Lenovo Essential Wireless Combo">
+                                          <Button alignment="CENTER" mnemonicParsing="false" onAction="#new1" prefHeight="31.0" prefWidth="343.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="کیبورد و موس Lenovo Essential Wireless Combo">
                                              <font>
                                                 <Font name="System Bold" size="14.0" />
                                              </font>
@@ -146,19 +145,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -173,7 +159,7 @@
                                     </VBox>
                                     <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="330.0" minWidth="380.0" prefHeight="330.0" prefWidth="380.0" style="-fx-background-color: ffff;" stylesheets="@style.css" GridPane.columnIndex="2">
                                        <children>
-                                          <Button mnemonicParsing="false" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
+                                          <Button mnemonicParsing="false" onAction="#new3" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
                                              <graphic>
                                                 <ImageView fitHeight="185.0" fitWidth="217.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
@@ -185,7 +171,7 @@
                                                 </ImageView>
                                              </graphic>
                                           </Button>
-                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="34.0" prefWidth="372.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="کیبورد مکانیکی گیمینگ لنوو Think TK200 Think Plus">
+                                          <Button alignment="CENTER" mnemonicParsing="false" onAction="#new3" prefHeight="34.0" prefWidth="372.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="کیبورد مکانیکی گیمینگ لنوو Think TK200 Think Plus">
                                              <font>
                                                 <Font name="System Bold" size="14.0" />
                                              </font>
@@ -198,19 +184,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -225,7 +198,7 @@
                                     </VBox>
                                     <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="330.0" minWidth="380.0" prefHeight="346.0" prefWidth="380.0" style="-fx-background-color: ffff;" stylesheets="@style.css" GridPane.rowIndex="1">
                                        <children>
-                                          <Button mnemonicParsing="false" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
+                                          <Button mnemonicParsing="false" onAction="#new5" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
                                              <graphic>
                                                 <ImageView fitHeight="185.0" fitWidth="217.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
@@ -237,7 +210,7 @@
                                                 </ImageView>
                                              </graphic>
                                           </Button>
-                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="38.0" prefWidth="373.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="صفحه کلید USB لنوو Lenovo K4800s">
+                                          <Button alignment="CENTER" mnemonicParsing="false" onAction="#new5" prefHeight="38.0" prefWidth="373.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="صفحه کلید USB لنوو Lenovo K4800s">
                                              <font>
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
@@ -250,19 +223,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -277,7 +237,7 @@
                                     </VBox>
                                     <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="330.0" minWidth="380.0" prefHeight="334.0" prefWidth="380.0" style="-fx-background-color: ffff;" stylesheets="@style.css" GridPane.columnIndex="1">
                                        <children>
-                                          <Button mnemonicParsing="false" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
+                                          <Button mnemonicParsing="false" onAction="#new2" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
                                              <graphic>
                                                 <ImageView fitHeight="185.0" fitWidth="217.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
@@ -289,7 +249,7 @@
                                                 </ImageView>
                                              </graphic>
                                           </Button>
-                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="38.0" prefWidth="401.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="کیبورد لنوو مدل SK-8821 Slim">
+                                          <Button alignment="CENTER" mnemonicParsing="false" onAction="#new2" prefHeight="38.0" prefWidth="401.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="کیبورد لنوو مدل SK-8821 Slim">
                                              <font>
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
@@ -302,19 +262,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -329,7 +276,7 @@
                                     </VBox>
                                     <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="330.0" minWidth="380.0" prefHeight="339.0" prefWidth="380.0" style="-fx-background-color: ffff;" stylesheets="@style.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
                                        <children>
-                                          <Button mnemonicParsing="false" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
+                                          <Button mnemonicParsing="false" onAction="#new6" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
                                              <graphic>
                                                 <ImageView fitHeight="185.0" fitWidth="217.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
@@ -341,7 +288,7 @@
                                                 </ImageView>
                                              </graphic>
                                           </Button>
-                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="38.0" prefWidth="424.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="موس بی سیم لنوو Lecoo WS202 2.4GHz">
+                                          <Button alignment="CENTER" mnemonicParsing="false" onAction="#new6" prefHeight="38.0" prefWidth="424.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="موس بی سیم لنوو Lecoo WS202 2.4GHz">
                                              <font>
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
@@ -354,19 +301,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -381,7 +315,7 @@
                                     </VBox>
                                     <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="330.0" minWidth="380.0" prefHeight="343.0" prefWidth="380.0" style="-fx-background-color: ffff;" stylesheets="@style.css" GridPane.columnIndex="2" GridPane.rowIndex="2">
                                        <children>
-                                          <Button mnemonicParsing="false" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
+                                          <Button mnemonicParsing="false" onAction="#new11" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
                                              <graphic>
                                                 <ImageView fitHeight="185.0" fitWidth="217.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
@@ -393,7 +327,7 @@
                                                 </ImageView>
                                              </graphic>
                                           </Button>
-                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="38.0" prefWidth="435.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="موس گیمینگ لنوو مدل Legion M500">
+                                          <Button alignment="CENTER" mnemonicParsing="false" onAction="#new11" prefHeight="38.0" prefWidth="435.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="موس گیمینگ لنوو مدل Legion M500">
                                              <font>
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
@@ -406,19 +340,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -433,7 +354,7 @@
                                     </VBox>
                                     <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="330.0" minWidth="380.0" prefHeight="348.0" prefWidth="376.0" style="-fx-background-color: ffff;" stylesheets="@style.css" GridPane.columnIndex="2" GridPane.rowIndex="1">
                                        <children>
-                                          <Button mnemonicParsing="false" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
+                                          <Button mnemonicParsing="false" onAction="#new7" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
                                              <graphic>
                                                 <ImageView fitHeight="185.0" fitWidth="217.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
@@ -445,7 +366,7 @@
                                                 </ImageView>
                                              </graphic>
                                           </Button>
-                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="38.0" prefWidth="403.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="کیبورد لنوو Lenovo Numeric FKL808">
+                                          <Button alignment="CENTER" mnemonicParsing="false" onAction="#new7" prefHeight="38.0" prefWidth="403.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="کیبورد لنوو Lenovo Numeric FKL808">
                                              <font>
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
@@ -458,19 +379,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -485,7 +393,7 @@
                                     </VBox>
                                     <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="330.0" minWidth="377.0" prefHeight="342.0" prefWidth="377.0" style="-fx-background-color: ffff;" stylesheets="@style.css" GridPane.columnIndex="3">
                                        <children>
-                                          <Button mnemonicParsing="false" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
+                                          <Button mnemonicParsing="false" onAction="#new4" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
                                              <graphic>
                                                 <ImageView fitHeight="185.0" fitWidth="217.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
@@ -497,7 +405,7 @@
                                                 </ImageView>
                                              </graphic>
                                           </Button>
-                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="38.0" prefWidth="418.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="کیبورد مکانیکی گیمینگ لنوو Legion K500">
+                                          <Button alignment="CENTER" mnemonicParsing="false" onAction="#new4" prefHeight="38.0" prefWidth="418.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="کیبورد مکانیکی گیمینگ لنوو Legion K500">
                                              <font>
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
@@ -510,19 +418,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -537,7 +432,7 @@
                                     </VBox>
                                     <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="330.0" minWidth="377.0" prefHeight="342.0" prefWidth="380.0" style="-fx-background-color: ffff;" stylesheets="@style.css" GridPane.columnIndex="3" GridPane.rowIndex="1">
                                        <children>
-                                          <Button mnemonicParsing="false" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
+                                          <Button mnemonicParsing="false" onAction="#new8" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
                                              <graphic>
                                                 <ImageView fitHeight="185.0" fitWidth="217.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
@@ -549,7 +444,7 @@
                                                 </ImageView>
                                              </graphic>
                                           </Button>
-                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="38.0" prefWidth="374.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="کيبورد با سيم لنوو Lenovo SK-8823 EKB-536A">
+                                          <Button alignment="CENTER" mnemonicParsing="false" onAction="#new8" prefHeight="38.0" prefWidth="374.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="کيبورد با سيم لنوو Lenovo SK-8823 EKB-536A">
                                              <font>
                                                 <Font name="System Bold" size="14.0" />
                                              </font>
@@ -562,19 +457,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -589,7 +471,7 @@
                                     </VBox>
                                     <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="330.0" minWidth="377.0" prefHeight="340.0" prefWidth="380.0" style="-fx-background-color: ffff;" stylesheets="@style.css" GridPane.columnIndex="3" GridPane.rowIndex="2">
                                        <children>
-                                          <Button mnemonicParsing="false" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
+                                          <Button mnemonicParsing="false" onAction="#new12" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
                                              <graphic>
                                                 <ImageView fitHeight="185.0" fitWidth="217.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
@@ -601,7 +483,7 @@
                                                 </ImageView>
                                              </graphic>
                                           </Button>
-                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="38.0" prefWidth="365.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="موس بیسیم یوگا LENOVO YOGA">
+                                          <Button alignment="CENTER" mnemonicParsing="false" onAction="#new12" prefHeight="38.0" prefWidth="365.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="موس بیسیم یوگا LENOVO YOGA">
                                              <font>
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
@@ -614,19 +496,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -641,7 +510,7 @@
                                     </VBox>
                                     <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="330.0" minWidth="380.0" prefHeight="342.0" prefWidth="380.0" style="-fx-background-color: ffff;" stylesheets="@style.css" GridPane.rowIndex="2">
                                        <children>
-                                          <Button mnemonicParsing="false" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
+                                          <Button mnemonicParsing="false" onAction="#new9" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
                                              <graphic>
                                                 <ImageView fitHeight="185.0" fitWidth="217.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
@@ -653,7 +522,7 @@
                                                 </ImageView>
                                              </graphic>
                                           </Button>
-                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="38.0" prefWidth="469.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="کیف لپ تاپ لنوو مدل Casual Toploader T210">
+                                          <Button alignment="CENTER" mnemonicParsing="false" onAction="#new9" prefHeight="38.0" prefWidth="469.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="کیف لپ تاپ لنوو مدل Casual Toploader T210">
                                              <font>
                                                 <Font name="System Bold" size="14.0" />
                                              </font>
@@ -666,19 +535,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -693,7 +549,7 @@
                                     </VBox>
                                     <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="330.0" minWidth="380.0" prefHeight="347.0" prefWidth="380.0" style="-fx-background-color: ffff;" stylesheets="@style.css" GridPane.columnIndex="1" GridPane.rowIndex="2">
                                        <children>
-                                          <Button mnemonicParsing="false" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
+                                          <Button mnemonicParsing="false" onAction="#new10" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
                                              <graphic>
                                                 <ImageView fitHeight="185.0" fitWidth="217.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
@@ -705,7 +561,7 @@
                                                 </ImageView>
                                              </graphic>
                                           </Button>
-                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="38.0" prefWidth="391.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="کیف گیمینگ لپ تاپ لنوو مدل Legion Pro 5">
+                                          <Button alignment="CENTER" mnemonicParsing="false" onAction="#new10" prefHeight="38.0" prefWidth="391.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="کیف گیمینگ لپ تاپ لنوو مدل Legion Pro 5">
                                              <font>
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
@@ -718,19 +574,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -745,7 +588,7 @@
                                     </VBox>
                                     <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="330.0" minWidth="380.0" prefHeight="337.0" prefWidth="380.0" style="-fx-background-color: ffff;" stylesheets="@style.css" GridPane.columnIndex="3" GridPane.rowIndex="3">
                                        <children>
-                                          <Button mnemonicParsing="false" prefHeight="194.0" prefWidth="377.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
+                                          <Button mnemonicParsing="false" onAction="#new16" prefHeight="194.0" prefWidth="377.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
                                              <graphic>
                                                 <ImageView fitHeight="185.0" fitWidth="217.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
@@ -757,7 +600,7 @@
                                                 </ImageView>
                                              </graphic>
                                           </Button>
-                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="38.0" prefWidth="530.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="موس لپ تاپ لنوو مدل Lenovo M20">
+                                          <Button alignment="CENTER" mnemonicParsing="false" onAction="#new16" prefHeight="38.0" prefWidth="530.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="موس لپ تاپ لنوو مدل Lenovo M20">
                                              <font>
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
@@ -770,19 +613,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -797,7 +627,7 @@
                                     </VBox>
                                     <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="330.0" minWidth="380.0" prefHeight="334.0" prefWidth="380.0" style="-fx-background-color: ffff;" stylesheets="@style.css" GridPane.rowIndex="3">
                                        <children>
-                                          <Button mnemonicParsing="false" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
+                                          <Button mnemonicParsing="false" onAction="#new13" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
                                              <graphic>
                                                 <ImageView fitHeight="185.0" fitWidth="217.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
@@ -809,7 +639,7 @@
                                                 </ImageView>
                                              </graphic>
                                           </Button>
-                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="38.0" prefWidth="478.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="هدفون گیمینگ لنوو مدل Legion Y660 Pro">
+                                          <Button alignment="CENTER" mnemonicParsing="false" onAction="#new13" prefHeight="38.0" prefWidth="478.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="هدفون گیمینگ لنوو مدل Legion Y660 Pro">
                                              <font>
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
@@ -822,19 +652,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -866,7 +683,7 @@
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
                                           </Button>
-                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="1,330,000 تومان">
+                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="به زودی">
                                              <font>
                                                 <Font size="23.0" />
                                              </font>
@@ -874,19 +691,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -918,7 +722,7 @@
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
                                           </Button>
-                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="1,719,000 تومان">
+                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="به زودی">
                                              <font>
                                                 <Font size="23.0" />
                                              </font>
@@ -926,19 +730,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -953,7 +744,7 @@
                                     </VBox>
                                     <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="330.0" minWidth="380.0" prefHeight="341.0" prefWidth="380.0" style="-fx-background-color: ffff;" stylesheets="@style.css" GridPane.columnIndex="1" GridPane.rowIndex="3">
                                        <children>
-                                          <Button mnemonicParsing="false" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
+                                          <Button mnemonicParsing="false" onAction="#new14" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
                                              <graphic>
                                                 <ImageView fitHeight="185.0" fitWidth="217.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
@@ -965,7 +756,7 @@
                                                 </ImageView>
                                              </graphic>
                                           </Button>
-                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="38.0" prefWidth="490.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="هدفون سیمی گیمینگ لنوو Thinkplus G70">
+                                          <Button alignment="CENTER" mnemonicParsing="false" onAction="#new14" prefHeight="38.0" prefWidth="490.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="هدفون سیمی گیمینگ لنوو Thinkplus G70">
                                              <font>
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
@@ -978,19 +769,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -1005,7 +783,7 @@
                                     </VBox>
                                     <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="330.0" minWidth="380.0" prefHeight="344.0" prefWidth="380.0" style="-fx-background-color: ffff;" stylesheets="@style.css" GridPane.columnIndex="2" GridPane.rowIndex="3">
                                        <children>
-                                          <Button mnemonicParsing="false" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
+                                          <Button mnemonicParsing="false" onAction="#new15" prefHeight="194.0" prefWidth="354.0" style="-fx-background-color: ffff;" stylesheets="@style.css">
                                              <graphic>
                                                 <ImageView fitHeight="185.0" fitWidth="217.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
@@ -1017,7 +795,7 @@
                                                 </ImageView>
                                              </graphic>
                                           </Button>
-                                          <Button alignment="CENTER" mnemonicParsing="false" prefHeight="38.0" prefWidth="432.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="هدفون گیمینگ لنوو مدل Legion STAR Y360">
+                                          <Button alignment="CENTER" mnemonicParsing="false" onAction="#new15" prefHeight="38.0" prefWidth="432.0" style="-fx-background-color: ffff;" styleClass="name" stylesheets="@style.css" text="هدفون گیمینگ لنوو مدل Legion STAR Y360">
                                              <font>
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
@@ -1030,19 +808,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -1074,7 +839,7 @@
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
                                           </Button>
-                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="2,273,000 تومان">
+                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="به زودی">
                                              <font>
                                                 <Font size="23.0" />
                                              </font>
@@ -1082,19 +847,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -1126,7 +878,7 @@
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
                                           </Button>
-                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="2,480,000 تومان">
+                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="به زودی">
                                              <font>
                                                 <Font size="23.0" />
                                              </font>
@@ -1134,19 +886,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -1178,7 +917,7 @@
                                                 <Font name="System Bold" size="14.0" />
                                              </font>
                                           </Button>
-                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="1,280,000 تومان">
+                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="به زودی">
                                              <font>
                                                 <Font size="23.0" />
                                              </font>
@@ -1186,19 +925,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -1230,7 +956,7 @@
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
                                           </Button>
-                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="1,330,000 تومان">
+                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="به زودی">
                                              <font>
                                                 <Font size="23.0" />
                                              </font>
@@ -1238,19 +964,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -1282,7 +995,7 @@
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
                                           </Button>
-                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="990,000 تومان">
+                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="به زودی">
                                              <font>
                                                 <Font size="23.0" />
                                              </font>
@@ -1290,19 +1003,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -1334,7 +1034,7 @@
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
                                           </Button>
-                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="1,198,000 تومان">
+                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="به زودی">
                                              <font>
                                                 <Font size="23.0" />
                                              </font>
@@ -1342,19 +1042,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -1386,7 +1073,7 @@
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
                                           </Button>
-                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="2,560,000 تومان">
+                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="به زودی">
                                              <font>
                                                 <Font size="23.0" />
                                              </font>
@@ -1394,19 +1081,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -1438,7 +1112,7 @@
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
                                           </Button>
-                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="2,950,000 تومان">
+                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="به زودی">
                                              <font>
                                                 <Font size="23.0" />
                                              </font>
@@ -1446,19 +1120,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -1490,7 +1151,7 @@
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
                                           </Button>
-                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="ناموجود">
+                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="به زودی">
                                              <font>
                                                 <Font size="23.0" />
                                              </font>
@@ -1498,19 +1159,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -1542,7 +1190,7 @@
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
                                           </Button>
-                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="ناموجود">
+                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="به زودی">
                                              <font>
                                                 <Font size="23.0" />
                                              </font>
@@ -1550,19 +1198,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -1594,7 +1229,7 @@
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
                                           </Button>
-                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="ناموجود">
+                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="به زودی">
                                              <font>
                                                 <Font size="23.0" />
                                              </font>
@@ -1602,19 +1237,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -1646,7 +1268,7 @@
                                                 <Font name="System Bold" size="15.0" />
                                              </font>
                                           </Button>
-                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="ناموجود">
+                                          <Label alignment="CENTER" prefHeight="150.0" prefWidth="400.0" stylesheets="@style.css" text="به زودی">
                                              <font>
                                                 <Font size="23.0" />
                                              </font>
@@ -1654,19 +1276,6 @@
                                                 <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
                                              </VBox.margin>
                                           </Label>
-                                          <Button mnemonicParsing="false" onAction="#kharid" prefHeight="46.0" prefWidth="343.0" text="افزودن به سبد خرید">
-                                             <font>
-                                                <Font size="18.0" />
-                                             </font>
-                                             <styleClass>
-                                                <String fx:value="login-btn1" />
-                                                <String fx:value="text" />
-                                                <String fx:value="password" />
-                                             </styleClass>
-                                             <stylesheets>
-                                                <URL value="@style.css" />
-                                             </stylesheets>
-                                          </Button>
                                        </children>
                                        <GridPane.margin>
                                           <Insets />
@@ -1683,14 +1292,14 @@
                               </GridPane>
                            </children>
                         </AnchorPane>
-                    </content>
+                     </content>
                      <BorderPane.margin>
                         <Insets top="-40.0" />
                      </BorderPane.margin>
                   </ScrollPane>
                </center>
             </BorderPane>
-        </children>
-    </AnchorPane>
-</children>
+         </children>
+      </AnchorPane>
+   </children>
 </StackPane>

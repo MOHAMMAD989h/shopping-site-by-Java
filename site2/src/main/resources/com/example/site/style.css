@@ -179,7 +179,3 @@
 -fx-background-radius: 0;
     -fx-font-size: 5px;
 }
-.label {
-    -fx-alignment: center;
-    -fx-text-alignment: center;
-}

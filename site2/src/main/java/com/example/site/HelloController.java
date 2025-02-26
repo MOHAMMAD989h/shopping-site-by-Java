@@ -235,12 +235,4 @@ public class HelloController implements Initializable {
             }
         }
     }
-
-    public void homeToChatBox(ActionEvent actionEvent) {
-        openNewWindow("chatConto.fxml","ChatBox",actionEvent);
-    }
-
-    public void searchBtn(ActionEvent actionEvent) {
-        openNewWindow("search.fxml","Search",actionEvent);
-    }
 }
